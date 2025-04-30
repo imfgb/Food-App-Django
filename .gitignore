@@ -1,0 +1,12 @@
+# Ignorar archivo de configuración con datos sensibles
+mysite/settings.py
+
+# Ignorar archivos de entorno con credenciales (ej. SECRET_KEY)
+.env
+
+# Ignorar cachés y archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Ignorar base de datos SQLite local
+db.sqlite3
